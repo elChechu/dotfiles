@@ -1,0 +1,16 @@
+[alias]
+
+	# Aliases help
+	aliases = config --get-regexp alias
+
+	# Add staged to last commit
+	amend = commit --amend --reuse-message=HEAD
+
+	# Show user email for current repo
+	whoami = config user.email
+
+
+[credentials]
+
+	# Helps to store password
+	helper = osxkeychain

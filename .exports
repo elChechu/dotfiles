@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# Vim powering
+export EDITOR='vim';
+
+# Locale settings
+export LC_ALL='en_US.UTF-8';
+export LANG='en_US.UTF-8';
+
+# Hide the “default interactive shell is now zsh” warning on macOS.
+export BASH_SILENCE_DEPRECATION_WARNING=1;
+

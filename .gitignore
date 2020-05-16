@@ -1,0 +1,9 @@
+# Default Mac files
+.DS_Store
+
+# Thumbnail files
+._*
+Thumbs.db
+
+# Other
+.Trashes

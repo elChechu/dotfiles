@@ -1,0 +1,24 @@
+##################################################
+#
+# Internet utilities
+#
+##################################################
+
+alias urlencode='python -c "import sys, urllib; print urllib.quote_plus(sys.argv[1]);"'
+
+alias publicip="dig +short myip.opendns.com @resolver1.opendns.com"
+
+alias localip="ipconfig getifaddr en0"
+
+
+##################################################
+#
+# System utilities
+#
+##################################################
+
+# Locking current session
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# Remove all .DS_Stores
+alias dsdel="find . -type f -name '*.DS_Store' -ls -delete"
