@@ -1,3 +1,5 @@
 # Just dotfiles
 
-For installation just run `install.sh`.
+Copy all dotfiles to user directory: `./install.sh`.
+
+Updating tools & install iterm: `./brew.sh`

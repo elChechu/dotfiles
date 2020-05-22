@@ -17,8 +17,5 @@ alias localip="ipconfig getifaddr en0"
 #
 ##################################################
 
-# Locking current session
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
 # Remove all .DS_Stores
-alias dsdel="find . -type f -name '*.DS_Store' -ls -delete"
+alias delds="find . -type f -name '*.DS_Store' -ls -delete"

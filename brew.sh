@@ -17,5 +17,8 @@ brew install bash
 echo /usr/local/bin/bash | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/bash
 
+# Installing custom terminal emulator
+brew cask install iterm2
+
 # Removing outdated versions
 brew cleanup
