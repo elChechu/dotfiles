@@ -1,21 +1,9 @@
-##################################################
-#
 # Internet utilities
-#
-##################################################
-
 alias urlencode='python -c "import sys, urllib; print urllib.quote_plus(sys.argv[1]);"'
 
 alias publicip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 alias localip="ipconfig getifaddr en0"
-
-
-##################################################
-#
-# System utilities
-#
-##################################################
 
 # Remove all .DS_Stores
 alias delds="find . -type f -name '*.DS_Store' -ls -delete"

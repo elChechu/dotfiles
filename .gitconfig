@@ -1,5 +1,4 @@
 [alias]
-
 	# Aliases help
 	aliases = config --get-regexp alias
 
@@ -9,8 +8,25 @@
 	# Show user email for current repo
 	whoami = config user.email
 
+	# Commit with specific message
+	save = git commit -m
+
+	# Undo al uncommitted changes
+	undo = reset --hard
+
+	# See last commit
+	last = log -1 HEAD
+
+	# Duplicate current branch
+	new = checkout -b
+
+	# Simple shortcuts
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+
 
 [credentials]
-
 	# Helps to store password
 	helper = osxkeychain
