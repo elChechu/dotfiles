@@ -9,7 +9,7 @@
 	whoami = config user.email
 
 	# Commit with specific message
-	save = git commit -m
+	save = commit -m
 
 	# Undo al uncommitted changes
 	undo = reset --hard
