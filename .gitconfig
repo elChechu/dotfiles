@@ -5,12 +5,6 @@
 	# Add staged to last commit
 	amend = commit --amend --reuse-message=HEAD
 
-	# Show user email for current repo
-	whoami = config user.email
-
-	# Commit with specific message
-	save = commit -m
-
 	# Undo al uncommitted changes
 	undo = reset --hard
 
